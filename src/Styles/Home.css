@@ -1,0 +1,51 @@
+#homepage {
+  display: flex;
+  position: relative;
+}
+
+.background {
+  position: relative;
+  z-index: 1;
+  height: 65vh;
+  width: 45vw;
+}
+
+.catchphrase {
+  background-color: #dbd4d3;
+  color: #8aa6aa;
+  position: absolute;
+  z-index: 2;
+  top: 20vh;
+  left: 23vw;
+  width: 75vw;
+  padding: 0px 10px;
+  margin-left: 0px;
+  position: absolute;
+  font-size: 3vw;
+  color: #7c9d96;
+  text-align: center;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+.title {
+  position: absolute;
+  z-index: 3;
+  color: #d2cca1;
+  font-size: 5vw;
+  top: 5vh;
+  text-align: center;
+  width: 100%;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}

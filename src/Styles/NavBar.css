@@ -1,0 +1,32 @@
+#navlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d2cca1;
+  font-size: 2em;
+}
+
+#link {
+  float: right;
+}
+
+#home {
+  float: left;
+}
+
+#link,
+#home,
+.navlink {
+  display: block;
+  color: #85a291;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#link a:hover {
+  background-color: #387780;
+  color: #d2cca1;
+}

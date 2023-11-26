@@ -1,0 +1,52 @@
+#contactTitle {
+  color: #85a291;
+  font-size: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  font-weight: 700;
+}
+
+#contactlist {
+  list-style: none;
+  color: #387780;
+  background-color: #85a291;
+  margin-top: 5.5%;
+  padding: 5%;
+  font-size: 1.8em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 5px solid #387780;
+  border-bottom: 5px solid #387780;
+}
+
+#icon {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 20%;
+}
+
+img {
+  height: 0.5vh;
+}
+
+.emailbtn {
+  border: 5px solid black;
+  border-radius: 15px;
+  margin: 0;
+  padding: 10px;
+  /* width: 15vw; */
+  text-align: center;
+  color: #387780;
+  background-color: #dbd4d3;
+}
+
+a {
+  text-decoration: none;
+  color: #387780;
+}

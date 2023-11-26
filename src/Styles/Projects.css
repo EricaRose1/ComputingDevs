@@ -1,0 +1,58 @@
+.projectlist {
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.ptitle {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.project {
+  background-color: #dbd4d3;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#projectCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: auto;
+  height: 300px;
+  color: #757780;
+}
+
+#projectTitle {
+  background-color: #dbd4d3;
+  border-radius: 20px;
+  display: block;
+  justify-content: center;
+  padding: 0px 10px 5px 15px;
+}
+
+#projectTitle,
+h1 {
+  margin: 10px;
+  font-size: 3vw;
+  text-align: center;
+  color: #387780;
+}
+
+.projectImg {
+  height: 35vh;
+  padding-bottom: 0;
+}
+
+#subtitle {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#description {
+  padding: 16px;
+  font-size: 2em;
+  width: 45vw;
+  margin-bottom: 5%;
+}
