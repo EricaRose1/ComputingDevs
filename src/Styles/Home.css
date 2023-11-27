@@ -6,13 +6,14 @@
 .background {
   position: relative;
   z-index: 1;
-  height: 65vh;
-  width: 45vw;
+  height: 100%;
+  width: 80%;
 }
 
 .catchphrase {
-  background-color: #dbd4d3;
-  color: #8aa6aa;
+  background-color: #190061;
+  color: #3500d3;
+  -webkit-text-stroke: 0.3px #0c0032;
   position: absolute;
   z-index: 2;
   top: 20vh;
@@ -22,7 +23,6 @@
   margin-left: 0px;
   position: absolute;
   font-size: 3vw;
-  color: #7c9d96;
   text-align: center;
   animation-duration: 2s;
   animation-name: slidein;
@@ -31,7 +31,7 @@
 .title {
   position: absolute;
   z-index: 3;
-  color: #d2cca1;
+  color: #3500d3;
   font-size: 5vw;
   top: 5vh;
   text-align: center;

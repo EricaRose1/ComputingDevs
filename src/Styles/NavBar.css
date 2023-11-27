@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #d2cca1;
+  background-color: #282828;
   font-size: 2em;
 }
 
@@ -19,7 +19,7 @@
 #home,
 .navlink {
   display: block;
-  color: #85a291;
+  color: #387780;
   text-align: center;
   padding: 10px 16px;
   text-decoration: none;
@@ -27,6 +27,6 @@
 
 /* Change the link color to #111 (black) on hover */
 #link a:hover {
-  background-color: #387780;
-  color: #d2cca1;
+  background-color: #240090;
+  color: #0c0032;
 }
