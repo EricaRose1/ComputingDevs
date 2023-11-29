@@ -1,6 +1,7 @@
 
 import { Routes, Route } from 'react-router-dom';
 import NavBar from './NavBar';
+import Footer from './Components/Footer';
 import Home from './Components/Home';
 import Contact from './Components/Contact';
 import Projects from './Components/Projects';
@@ -17,6 +18,7 @@ function App() {
             <Route exact path='Projects' element={ <Projects /> } />
             <Route exact path='Skills' element={ <Skills /> } />
       </Routes>
+      <Footer/>
     </div>
   );
 }

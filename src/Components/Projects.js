@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { projects } from '../Data.js';
 
 import '../Styles/Projects.css';
@@ -7,6 +8,7 @@ function Projects() {
 
     
     return (
+        <>
         <div className='projectlist'>
             <div className='ptitle'>
                 <h1 id='projectTitle'>Projects</h1>
@@ -24,6 +26,8 @@ function Projects() {
                 ))}
             </div>
         </div>
+        </>
+        
     )
 }
 

@@ -1,0 +1,34 @@
+.footer {
+  background-color: #190061;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  bottom: 0px;
+  position: fixed;
+}
+
+.footer-left {
+  padding: 25px 0 0 0;
+  margin: 0 0 0 35px;
+  color: white;
+  width: 40%;
+}
+
+.footer-right {
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-direction: row;
+  padding-right: 40px;
+}
+
+#Ficon {
+  margin-top: 0;
+  padding-top: 0;
+  padding: 0 25px 0 0;
+  margin: 10px;
+  width: 30px;
+}

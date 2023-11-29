@@ -11,6 +11,11 @@ li {
   padding-bottom: 8%;
 }
 
+#container {
+  float: bottom;
+  margin-bottom: 0;
+}
+
 #contactlist {
   list-style: none;
   color: #387780;
@@ -24,7 +29,6 @@ li {
   align-items: center;
   justify-content: space-around;
   border-top: 5px solid #387780;
-  border-bottom: 5px solid #387780;
 }
 
 #icon {
@@ -34,7 +38,7 @@ li {
 }
 
 img {
-  width: 5vw;
+  width: 8vw;
   height: auto;
   margin-bottom: 0;
 }
@@ -52,5 +56,5 @@ img {
 
 a {
   text-decoration: none;
-  color: #387780;
+  color: white;
 }

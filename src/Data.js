@@ -28,7 +28,7 @@ export const projects = [
     {
         title: 'TreeTrek',
         subtitle: 'React.js, Node.js, PostgreSQL, Etc.',
-        description: 'Create an account that saves your list of things you need to go camping, also look up the information for each state park',
+        description: 'Create an account that saves your list of things you need to go camping, also look up the information for each state park.',
         image: image,
         link: 'https://github.com/EricaRose1/TreeTrek.git',
     },
